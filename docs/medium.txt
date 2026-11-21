@@ -1,0 +1,662 @@
+TITLE: Can AI Make the Next Einstein-Level Discovery?
+SUBTITLE: A simple, beginner-friendly guide to "LLMs Can't Jump" — with no physics or AI background needed
+
+[Link to the interactive website: ADD LINK]
+
+
+# 1. What is an LLM, really?
+
+You have probably used ChatGPT, Gemini or Claude. Behind each of them there is an LLM, a "Large Language
+Model". An LLM is a kind of neural network: a huge computer program made of billions of small numbers
+that are tuned during training. Many people say that neural networks work a bit like the human brain,
+because the idea was first inspired by how brain cells connect to each other.
+
+LLMs are already very impressive. They write code, summarize long documents, pass difficult exams and
+even help mathematicians with proofs. Because of this, many people believe that if we just make these
+models bigger and train them on more data, one day they will reach AGI (Artificial General Intelligence):
+an AI that can think as well as a human in almost everything.
+
+
+# 2. The big question: can AI make a real scientific breakthrough?
+
+Writing code and passing exams is one thing. But can an LLM do what the greatest human scientists did?
+Can it make a real breakthrough, like Einstein did with his theory of relativity?
+
+Here is a simple way to put the question: imagine we give a modern LLM all the knowledge that Einstein
+had in his time. Could it invent his theory by itself?
+
+To answer this, we first need to understand how scientists think. So let's take a small step back.
+
+
+# 3. Three ways of thinking
+
+More than a hundred years ago, the American philosopher Charles Sanders Peirce said that there are three
+basic ways to reason:
+
+- Deduction: you start from a general rule and apply it to a specific case.
+- Induction: you look at many specific examples and find a general rule.
+- Abduction: you see something surprising and you make the best guess to explain it.
+
+The first two are the "normal" tools of science, and computers are already good at them. The third one
+is the creative one. As we will see, the third one is the key to our question. Let's look at each one
+with examples.
+
+
+# 4. Deduction: from a general rule to a specific case
+
+Deduction goes from general to specific. You start with a rule that you accept as true, and you apply it
+to one specific case. Here are two examples.
+
+Example 1: The keycard building
+Imagine a master rule that applies to an entire building.
+- General rule: Every door in this building needs a keycard to open.
+- Specific case: Room 402 is a door in this building.
+- Conclusion: So, Room 402 needs a keycard to open. You know this 100% for certain, without ever testing
+  the door.
+
+Example 2: The triangle
+In Euclidean geometry (the geometry we learn at school), we rely on established axioms and theorems.
+- General rule: The interior angles of every triangle always add up to 180 degrees.
+- Specific case: You draw a specific triangle where two angles are 60 and 50 degrees.
+- Conclusion: So, the third angle must be 70 degrees (180 − 60 − 50).
+
+Deduction is certain. Think about geometry again. In geometry we have axioms: basic rules that we do not
+prove, but accept, such as "from two points, only one straight line can pass". Based on these axioms, we
+prove that the sum of the angles of a triangle is 180 degrees. Then, based on this, we prove the famous
+Pythagorean rule, a² + b² = c². Each step is built on the step before. This is a formal proof, and if the
+process and the formulas are used correctly, the conclusion is 100% correct. That is why deduction has
+full certainty: if the rules are true and you apply them correctly, the conclusion is true.
+
+Where is AI here? AI is rapidly improving at deduction. Formal proof systems like Lean and Google
+DeepMind's AlphaProof, which are mostly rule-based systems, can do step-by-step proofs, and nowadays
+LLMs are also doing it. Many research papers we see nowadays are this kind of work (applying known rules
+step by step), and LLMs already help researchers with it. In short: AI is rapidly improving at
+deduction.
+
+
+# 5. Induction: from many examples to a general rule
+
+Induction goes the other way: from specific to general. You see a lot of smaller observations, and they
+make you conclude a generalization. Here are three examples.
+
+Example 1: The falling dominoes
+Imagine an infinite line of dominoes standing upright.
+- Observation 1: You push the first domino, and it falls.
+- Observation 2: You notice that the dominoes are spaced so that any falling domino will always knock
+  over the next one.
+- Generalization: You conclude that every single domino in the entire line will fall, without having to
+  watch each one individually.
+
+Example 2: Adding odd numbers
+Look at the sum of odd numbers, starting from 1:
+  1 = 1 (which is 1²)
+  1 + 3 = 4 (which is 2²)
+  1 + 3 + 5 = 9 (which is 3²)
+  1 + 3 + 5 + 7 = 16 (which is 4²)
+- Generalization: After seeing these smaller cases, you conclude that the sum of the first n odd numbers
+  is always n².
+
+Example 3: The bag of marbles
+You have a bag full of marbles. You cannot see inside it, and you want to know what color the marbles
+are.
+- Observations: You pull out the first marble: it is red. You pull out a second one: red. You pull out ten
+  more: all red.
+- Generalization: Based on these repeated small observations, you conclude that all the marbles in the
+  bag are red.
+(Note: in everyday life, this kind of reasoning is probabilistic. In mathematics there is a special
+method called "mathematical induction", which can prove a generalization like the dominoes or the odd
+numbers with 100% certainty.)
+
+Induction is not fully certain. Mathematical approaches can increase its certainty as much as possible,
+but in nature we may always see a new observation that proves the previous rule wrong. Maybe the next
+marble in the bag is blue.
+
+Where is AI here? Induction is exactly how LLMs learn. During training, an LLM reads billions of
+sentences and learns patterns from them: which word usually comes after which. This is induction at a
+gigantic scale. In short: AI has mastered induction.
+
+
+# 6. Deduction vs. induction at a glance
+
+| | Deduction | Induction |
+|---|---|---|
+| Direction | general → specific | specific → general |
+| Starts from | rules (axioms) | observations (data) |
+| Example | Every door needs a keycard → Room 402 needs a keycard | 12 red marbles → all marbles are red |
+| Certainty | 100%, if the rules are true and used correctly | not fully certain; probable |
+| AI today | rapidly improving (Lean, AlphaProof, LLMs) | mastered (this is how LLMs learn) |
+
+
+# 7. When the rules themselves change
+
+Deduction and induction are powerful. But both have a limit: they work inside the rules we already
+have. Deduction follows the rules. Induction finds patterns in data we already collected. Yet some of
+the biggest moments in science happened when someone changed the rules themselves. Here are three
+examples.
+
+Geometry. In the school geometry of Euclid, "through two points, only one straight line can pass". But
+now think about the surface of a ball, like planet Earth. Between the North Pole and the South Pole,
+there is not one shortest path but infinitely many: every line of longitude is one. On a ball, the
+angles of a triangle also add up to more than 180 degrees. This "non-Euclidean" geometry was not
+discovered by following Euclid's rules more carefully. Someone had to dare to change a basic rule.
+(Later, Einstein used exactly this kind of geometry in his theory of gravity.)
+
+Mathematics. At school we learn that you cannot take the square root of a negative number. But
+mathematicians decided to imagine a new number, called i, where i × i = −1. So the square root of −1 is
+i (and also −i). These "imaginary numbers" sounded crazy at first, but today engineers use them every
+day, for example in electricity and signal processing.
+
+Physics. In everyday life, an object can only be in one place at a time. Your phone is either on the
+table or in your pocket, never both. But in quantum physics, tiny particles like electrons and photons
+can be in a "superposition". In one popular way of explaining it (the Copenhagen interpretation), the
+particle does not have one fixed position until we measure it; in a sense, it is in several places at
+once.
+
+None of these ideas came from deduction, because deduction only follows the old rules. And none came
+from induction, because no data at that time showed them. So how were they discovered?
+
+
+# 8. Abduction: the creative jump
+
+This is where the third way of thinking comes in: abduction. Abduction is just like guessing: you see
+something surprising, and you make the best guess to explain it. The conclusion is a guess. Here are two
+examples.
+
+Example 1: The wet grass
+- Surprise: The grass is wet this morning.
+- Known rule: Rain makes grass wet.
+- Best guess: It probably rained last night.
+It could also have been a sprinkler, so abduction is a guess, not a proof. But it is the creative step:
+it proposes an explanation that nobody gave you.
+
+Example 2: Einstein and gravity
+Einstein guessed something that nobody believed before: that gravity and acceleration might be the same
+thing. From this guess, his famous theory of General Relativity was born. (We will look at this story
+step by step in the next sections.)
+
+In science, the biggest abductions are not small guesses about grass. They are new basic rules, like
+"maybe space is curved" or "maybe energy comes in small packets". This creative leap is called "the
+jump", and it is the thing that usually leads to the major breakthroughs in science.
+
+Here is a simple picture to keep in mind for the rest of this article: the box of knowledge. Imagine
+that all of human knowledge and science is a big box. Most areas of this box are already filled: humans
+have discovered them. But some parts or points inside the box are still empty: things that humans have
+missed. Using the existing rules and data (deduction and induction), we can fill those empty spaces
+inside the box. But a jump is different. A jump is a breakthrough: it is thinking outside of the box,
+and it increases the size of the box itself. Non-Euclidean geometry, imaginary numbers and quantum
+physics from the previous section were all jumps like this: each of them made the box of knowledge
+bigger.
+
+And this is our research question: can LLMs do this jump or not?
+
+To answer this, there are two research papers and one "hot take" (a blog post):
+- Paper 1: "LLMs Can't Jump" by Tom Zahavy (Google DeepMind, 2026).
+  https://openreview.net/forum?id=klU4737opt and https://www.tomzahavy.com/projects/llms-cant-jump
+- Paper 2: "LLMs Don't Pay for the Jump" by Paras Balani and Subhrakanta Panda (2026), written as an answer
+  to Paper 1. https://arxiv.org/abs/2608.14397 and https://arxiv.org/html/2608.14397v1
+- Hot take: "Hot take: LLM can 'jump'" by Yong Zheng-Xin, a blog post which argues the opposite.
+  https://yongzx.github.io/blog/2026/08/08/llm-can-jump
+
+If scientific discovery were only induction plus deduction, then scaling LLMs (more compute and larger
+models) would be enough. Both papers argue that it is not.
+
+AI today: missing — "the jump".
+
+Both papers agree that LLMs can't jump, but they differ in the reason WHY.
+
+
+# 9. How a jump happens in humans like Einstein
+
+How is a new theory born? Here are the steps:
+
+1. We humans experience something.
+2. We guess something that is not real yet (not part of our knowledge yet), using imagination. This is
+   the jump.
+3. The guess becomes an axiom: a new basic rule.
+4. Based on the new axiom, using the same logic and process we applied before, we predict things. The
+   logic is the same, but its base (the axioms) has changed. An axiom is like a base, a seed or a
+   starting point. Logic derives predictions from the axiom.
+5. We test our predictions with experiments. The theory stays accepted until an experiment or a test
+   shows that it is wrong.
+
+This is similar to how Einstein came to General Relativity:
+
+1. Experience: He first had an experience: a person in an elevator. (We will discuss this elevator later,
+   since this is not a physics article.)
+2. The jump: Then, using his imagination, he guessed that maybe the world works in a way nobody had
+   thought of before: maybe gravity and acceleration are the same thing. This jump cannot be done by AI.
+3. The axiom: This guess became a basic rule of his new theory (the "equivalence principle"). This is
+   axiom creation.
+4. Predictions: Then he applied logic to it (with years of hard mathematics) and predicted that light
+   bends near the Sun or near other enormous objects. This step, a statement or prediction derived from
+   axioms, can also be done by AI.
+5. The test: Finally, in 1919, scientists measured starlight passing near the Sun during a solar
+   eclipse, and the prediction was true.
+
+
+# 10. How could a jump happen in LLMs?
+
+The problem here is that no one can hand over the jump (the creative imagination) to an LLM, because it
+simply did not exist before.
+
+LLMs are statistical models. LLM training can be oversimplified as curve fitting: there is a lot of
+natural language text, and we train the "brain" (the neural network) to fit it. The training data is
+like a square or a frame. During training, we try to maximize the area of this frame that the LLM
+learns. The more of this frame's area it covers, the better.
+
+This frame is our box of knowledge from Section 8. The text that humans have written covers most areas
+of the box. Inside the box, LLMs can do a lot: using the existing rules and data, they can fill the empty
+spaces and points that humans have missed. This is already very useful, and it is what LLMs are good at.
+
+But a jump means stepping outside of this frame, or thinking outside of the box, and making the box
+bigger. It means the LLM has to think about something that was not in its training data. In AI language, this is called "out of
+distribution" (OOD). It is not clear, or proven, whether an LLM can step outside of this frame and think
+outside of the box or not. But the authors of both papers argue that LLMs cannot do it. They give
+different reasons WHY LLMs can't jump, and each of them proposes a different fix.
+
+
+# 11. Paper 1: Zahavy's three reasons why LLMs can't jump
+
+Tom Zahavy gives three arguments:
+
+1. Induction sometimes fails.
+2. Deduction starts from axioms and rules, and it cannot create them.
+3. LLMs have no grounding in the physical world.
+
+And then he proposes how to fix it. Let's go through them one by one.
+
+
+# 12. Reason 1: induction sometimes fails (the Vulcan story)
+
+Here is an example of induction failing. There was a topic in physics where, using Newtonian physics
+(the one we learn at high school), we could predict the orbit of every planet, and all predictions came
+out correct except one: a tiny extra drift in Mercury's orbit. Mercury is the planet closest to the Sun,
+and its orbit drifted a little more than Newton's laws said it should.
+
+Astronomers kept Newton's laws of gravity and assumed an invisible planet near the Sun, named "Vulcan",
+whose gravity would explain the drift. In other words: using the existing laws, Mercury's orbit could not
+be predicted correctly, so they added an exception, saying: "Maybe there is a planet that we have not
+discovered yet, named Vulcan, and that's why the drift happens." They just introduced an exception, a
+"patch", so that the whole set of axioms and observations would become correct again.
+
+They did not rethink: "Maybe our understanding of gravity is wrong; maybe gravity is something else."
+Why? Because using the existing laws they could predict everything almost perfectly, so the data gave
+them no reason to change their rules, except for Mercury. So they did not find it necessary to change
+anything, and instead they just "patched" the error with the assumption that a planet exists near the
+Sun. This was wrong: such a planet was never discovered.
+
+The interesting thing is that they had done the same patching trick before, with Neptune, and
+surprisingly it worked. In the 1840s, the orbit of Uranus did not fit Newton's laws either. Astronomers
+guessed that an unknown planet was pulling on it, calculated where it should be, and in 1846 they found
+it: Neptune. So they thought the same patch would work one more time, and there was no reason to change
+their laws or assumptions about gravity.
+
+But Einstein was different on this topic. He "rethought" the laws of physics on gravity and invented
+something new, which could perfectly describe the drift in Mercury's orbit WITHOUT THE NEED for any
+PATCH! Einstein did not say: "OK, the existing rules work in 99.9% of the cases, so for the remaining
+0.1%, let's add an exception." Instead, he was like: "Something about gravity does not fit together, and
+I will not just patch it. Let's rethink what gravity is from the beginning." (Interestingly, his main
+reason was not Mercury's drift. It was that Newton's gravity did not fit with his own earlier theory,
+special relativity, and the elevator idea we will see later. In 1915, his new theory then explained
+Mercury perfectly.) So Einstein decided to jump (abduction) rather than patching.
+
+So after this example, talking about LLMs: will the induction of LLMs fail in the same way? Yes,
+probably. LLMs can be simplified as curve-fitting learners: they learn to fit the training data. During
+training, an LLM just tries to minimize its error, so it fixes or patches the exceptions. A learner that
+only reduces its error on data always picks the smallest fix: the patch. Rewriting the whole theory is
+never the smallest fix, so the data never asks for it. So if an LLM were in the same scenario as the
+Mercury orbit drift, it would not rethink gravity like Einstein; it would patch it.
+
+In our box picture: the Vulcan patch tried to fill a hole inside the box of knowledge, using the old
+rules. Einstein did something else: he stepped outside the box and made the box bigger.
+
+
+# 13. Reason 2: deduction can't start (logic needs the rules first)
+
+Logic needs the rules first. LLMs can apply logic if they are given some rules and axioms. Deduction goes
+from rules to conclusions, but it cannot create the rules. Give a computer the axioms of geometry, and it
+can prove that a triangle's angles add up to 180 degrees, but it will not invent a new geometry. In the
+same way, an LLM given Einstein's axioms could probably derive his theory of relativity. Finding the
+axioms was the hard part.
+
+
+# 14. Reason 3: no grounding in the physical world
+
+Before understanding this reason, we first need to understand what an LLM is, what language is, and how
+language is different from science and from the reality of the world.
+
+LLMs are just word prediction models. Given an input sequence, they predict the next sequence as output.
+What they learn is language, not the physical world and not science itself!
+
+This is a bit difficult to understand, so first let's clarify that language is not equal to science, is
+not equal to the physical world, and is not equal to reality. What is language? It is just an interface
+for communicating with each other, and also a tool for thinking (as the linguist Noam Chomsky
+describes it). We humans explain the world around us using language, in order to communicate with each
+other. Unlike LLMs, which can only understand patterns in written text, we humans have multiple senses:
+we can see, we can hear, we can smell, we can touch, AND we can understand language. So language is just
+a tool. It is not the science or the reality of the world itself, but a tool to explain them. There is a
+lot of information in the world around us that cannot be expressed or fully conveyed by language, and it
+does not need language to exist.
+
+Imagine a child who has just learned to walk but cannot talk yet. That learning happened without
+language. It would be silly to say that the child cannot learn anything because it cannot talk.
+
+Another example is the naming of colors. We humans have the ability to see, and we can see the color
+green. The color green is a reality for us humans. In order to communicate with each other, we decided
+to call it "green". So the word "green" is just an agreement, not the actual green color we observe with
+our biological eyes. Imagine someone who is born, and from the beginning, everyone around them "lies" to
+them and says that the name of this specific color is "pink". This new-born human will call it pink while
+seeing green. The reality stays the same: the color green stays green, but language taught this child to
+call it pink. This means that reality and language are two separate things, and language is just a tool
+to explain reality.
+
+So what are these AI models called? They are called "language" models. They are not called smell models
+or physics models, but language models, because all they understand is language patterns and nothing
+more. And guess what? It happens that we humans have written most of our knowledge and understanding of
+the world in the form of natural language (written text). So, by accident, when LLMs learn the language,
+they also learn the science, the knowledge and the reality itself! I know it is a bit oversimplified, but
+it is a kind of accident: learning language unintentionally teaches you some part of reality too! We
+train LLMs to learn language, not the world around us. And the world around us has a lot of useful and
+rich information that cannot be captured by language.
+
+What do I mean by "rich"? Imagine you ate a tasty slice of pizza, and you are explaining to your friend
+how this pizza tasted. The feeling it gave to the taste buds on your tongue can be expressed in language:
+"tasty". If your friend asks you to express it in a richer way, you may say: "tasty, salty and yummy". If
+they ask you to express it even more, you would say: "tasty, salty, yummy and flavorful". The problem
+here is that even if you explain the taste of that pizza in more detail and with richer language, your
+friend still cannot really understand how that pizza "tastes". Even if you explain it for one more hour,
+your friend cannot feel how it tastes like you did. Your friend needs to actually go to that pizza shop
+and eat the pizza. Explaining in natural language is not equal to eating the pizza. After your friend
+"eats" the pizza, they learn how it tastes. Your natural language description of the pizza was just a
+tool to communicate with your friend, not the pizza itself!
+
+So why am I giving this example? Because the world around us is very complex, and LLMs cannot learn it.
+LLMs cannot feel touch like us humans. LLMs cannot smell like humans. LLMs cannot see colors like us.
+LLMs cannot understand the complex and rich information available in the world. They can only
+understand language.
+
+After understanding all of this, let's get back to the author's arguments. Zahavy says that since LLMs
+have no grounding in the physical world around them, they cannot jump. As his reference, he gives
+Einstein's example, which led to General Relativity. Einstein's famous theory of General Relativity
+started when he imagined himself in an elevator. To understand it, first a small fact about "weight":
+what you feel as your weight is not gravity pulling you; it is the floor pushing back up against your
+feet.
+
+- When you stand in a closed elevator on Earth, with no windows, you feel pressed against the floor. If
+  you drop a ball, it falls to the floor.
+- The opposite side: imagine the same elevator far away in empty space, where there is no gravity, but
+  a rocket pulls the elevator upward, faster and faster. You also feel pressed against the floor. If you
+  drop a ball, the floor rushes up to meet it, so it looks exactly like the ball is falling. From inside
+  the elevator, you cannot tell the two situations apart.
+- And the other way round: if the elevator cable on Earth is cut and the elevator falls, you float
+  inside it, weightless, exactly like an astronaut in space.
+
+Einstein did not really ride such an elevator; he imagined it in his mind (a "thought experiment"). But
+his imagination used real feelings of his physical body that every human knows: the feeling of weight,
+of being pushed up in a lift, of the stomach drop when falling. Then he thought: maybe we should rethink
+(jump) our understanding of gravity. Maybe gravity and acceleration are the same thing. This means that a
+feeling from his senses in the physical world led him to jump. His jump was grounded in physical reality.
+
+But we know that LLMs cannot feel reality like humans, since they do not have biological bodies, and all
+they do is learn natural language. That's why LLMs cannot jump like Einstein. An LLM can describe falling
+perfectly, but it has never felt weightless, and Einstein's jump started exactly from imagining that
+feeling.
+
+An LLM is like a person who has read 100 articles about how to swim, but has never really gone into the
+water to swim! It cannot understand how it feels when the cells of your skin touch the water.
+
+
+# 15. Zahavy's proposed fix: world models
+
+So we know that LLMs learn language, not the world around them. So why haven't humans created AIs or
+models that learn the world rather than language?
+
+Actually, we have. There is something called a world model. Unlike LLMs, which predict the next token
+given an input text, world models predict the next STATE of the world, given an input environment. LLMs
+learn how the text changes given an input text; world models learn how the state of the world changes
+given an environment.
+
+Here is an example, so you can understand it better:
+- LLM input/output: text → text
+  Example: "The ball falls off the …" → (the model predicts) → "edge"
+- World model input/output: observation + action → observation (video, 3D)
+  Example: [a ball on a table] + push → [the ball falls off] (this happens in a 3D world)
+
+So in this example, if you create a 3D world environment (the observed state) in which the input is a
+ball being pushed on a table (the action in the environment), the world model will predict a new state
+of this 3D world in which the ball has fallen off the table (the next observed state). Unlike text-only
+models, world models capture space, time, object persistence (objects keep existing when you don't see
+them), and cause and effect.
+
+Zahavy adds one important point: a model that only watches videos is not enough. A video model can show
+an apple falling, but only because apples fall in most of its training videos, not because it
+understands gravity. What we need are interactive world models, where the AI can act and ask "what would
+happen if…?", for example "what if I cut the elevator cable?". Zahavy calls this a "synthetic
+laboratory": a place where an AI could run its own thought experiments, like Einstein did.
+
+One of the important scientists who advocates a lot for world models is Yann LeCun, a Turing Award
+winner and one of the fathers of deep learning. He argues that LLMs alone are not enough to reach
+human-level intelligence. He has a famous explanation of why we need to learn from the physical world
+rather than from language: a four-year-old child has been awake for about 16,000 hours. In that time,
+through its eyes alone, the child has taken in about as much data as, or even more than, all the text
+used to train the biggest LLMs, and a human would need hundreds of thousands of years to read that text.
+And this visual information is much richer than text. His example shows why LLMs are not enough for us
+to reach human-level intelligence.
+
+A bit more on world models, for those who are interested. There are two main approaches:
+- Generative (observation-level) models: they predict future sensory states directly, such as video
+  frames or interactive 3D scenes. Examples include Google DeepMind's Genie 3, World Labs' Marble and
+  NVIDIA Cosmos.
+- Predictive (latent-space) models: they predict future states in an abstract, compressed space
+  (an "embedding space") instead of drawing every pixel. Approaches like JEPA (Joint Embedding
+  Predictive Architecture) by Yann LeCun focus on high-level dynamics and physical relationships.
+
+
+# 16. Summary of what Zahavy says — and an open question
+
+In order to have an AI that can jump, we need something that can do grounded abduction: an abduction
+that is rooted in physical grounding. As his reference, Zahavy mentions Einstein's example.
+
+But wait: Einstein is just a single example. Is embodiment (physical grounding) always necessary, or is it
+only one of the possible routes to a jump? The authors of the second paper, Balani and Panda, provide a
+counterexample.
+
+
+# 17. Paper 2's response: the Max Planck counterexample
+
+Balani and Panda agree with Zahavy that LLMs can induce and deduce, but cannot make the abductive jump.
+But they disagree that the missing ingredient is physical grounding (embodiment). They have a
+counterexample: Max Planck, in the year 1900.
+
+At that time, physicists wanted to calculate how much energy a hot object (like a glowing oven) gives off
+as light. Classical physics (close to the physics we learn at high school), when applied correctly,
+predicted that a hot object emits infinite energy at high frequencies. This was called the "ultraviolet
+catastrophe". It was not a measurement error and not a math mistake; it was the correct result of the
+classical assumptions. But the measured energy was finite.
+
+Then the jump happened, by Max Planck. Planck jumped to a new axiom: energy is exchanged in small
+packets. (Physicists write it as E = hν, "E equals h nu", but you don't need the formula.) This idea later
+became the start of quantum physics.
+
+- But was this induction? No. There was no observation or experiment that people could generalize into
+  this rule; the confirming experiments came later.
+- Was it deduction? No. Deduction from the classical rules is exactly what produced the catastrophe
+  (infinite energy).
+- Was it grounded abduction? No. Max Planck did not invent this because of any physical experiment or
+  feeling. Einstein jumped because of an imagined feeling in an elevator, of falling, but for Max Planck
+  the jump came only from a mathematical formula that was very wrong, resulting in infinite energy!
+  Planck himself later called his idea "an act of desperation".
+
+So what happened that made this jump? What drove this jump? "The cost of error"! For a scientist like Max
+Planck, the infinite value was mathematically far too much, and Planck could not accept it mentally.
+Keeping the old rule had become too costly. A small error can be ignored (or patched, like what
+scientists did before Einstein), but an infinite one cannot. To get into the details of why this huge
+cost led to the jump, read the next section.
+
+
+# 18. Biological abduction: does being wrong cost anything?
+
+The main reason Max Planck had to jump was the cost of this error. For humans, some errors cost a lot.
+But for a machine, does being wrong cost anything?
+
+In order to answer this, we first need to understand a little thermodynamics: coupled and decoupled
+systems. A system is thermodynamically coupled if its physical cost grows with its error. (In math
+language: the derivative of the cost with respect to the error is positive.) A system is decoupled if its
+cost stays the same, no matter how big its error is.
+
+The human brain is coupled. According to the neuroscientist Karl Friston's "free-energy principle", a
+prediction error changes the activity between our brain cells (synaptic activity), our attention and our
+body's energy use (metabolic demand). As the error grows, the brain works harder, until it revises its
+rule.
+
+One example is when you give a speech to a group of 3 people vs. 100 people. When you give a speech to 3
+of your close friends and you make a mistake, you usually don't care, since you know nothing bad will
+happen with your close friends. But if you make the same mistake in front of 100 people, your heart
+starts racing, your blood is pumped with higher pressure, your metabolism burns more energy, and the
+activity in your brain increases. This is because your brain goes into a state of uncertainty: you do not
+know how 100 strangers will react to your mistake. So the brain is a thermodynamically coupled system.
+
+In thermodynamically coupled systems like our brain, as the error grows and the brain becomes uncertain,
+the brain works harder until it revises its rule and reaches a state of certainty. Its uncertainty is
+"regulatory": it controls what happens next. In plain words: being wrong makes the brain work harder,
+until it changes its mind.
+
+The same thing happened to Max Planck: the infinite value was huge, and it put too much pressure of
+uncertainty on Planck's brain. The brain hates uncertainty, so this huge error made his brain work harder,
+until it revised the rules (the jump) and came up with a solution (small, discrete packets of energy).
+Finally, Planck's brain could reach a state of certainty, and he could take a deep breath.
+
+But what about machines? An LLM, which uses the Transformer architecture, is a decoupled system at
+inference time (the time when we use it). The weights of the model are always fixed (frozen) at runtime.
+Whether the model is certain or uncertain about a question, it uses the same watts and the same FLOPs
+(the same electricity and the same amount of calculation) for a true answer or a wrong answer. (This is
+not measured; it simply follows from how the Transformer is built.)
+
+In simpler words: whether an LLM gives a correct answer or a wrong answer, its energy use does not
+change. And something else does not change either: its own measure of uncertainty, which is called
+"token entropy". A human brain in a state of uncertainty spends more energy (heart racing, higher blood
+pressure and metabolism), but an LLM, whether hallucinating or giving a correct answer, uses the same
+energy, and its token entropy stays the same. The authors also provide empirical evidence for this.
+
+
+# 19. Empirical evidence: LLMs are decoupled systems
+
+Is there evidence? The paper cites an experiment by the researcher Ahmed Gamal Eldin (2026); it is not
+the authors' own experiment. He did a benchmark on a few LLMs. He gave the LLMs tasks of three different
+difficulties:
+
+- A task the LLM was already trained on, so it only needs to answer by simply retrieving information from
+  its frozen weights. These are the "Kepler" tasks, which are easy. Example: "A pendulum becomes four
+  times longer. What is its new period?"
+- A task about things the model was trained on, but where it has to apply logic with new parameters.
+  These are the "Newton" tasks. Example: "What if gravity got weaker with distance in a slightly
+  different way than Newton said?"
+- A third task that was completely beyond its training data, meaning the LLM had no clue about it. These
+  are the "Newton OOD" (out of distribution) tasks. Example: physics in an imaginary universe where
+  nature's basic constants have different values.
+
+He did this on three Llama models, from 3 billion to 70 billion parameters. For example, the results of
+the 70-billion model were as expected: 100% correct on the Kepler tasks, since they were easy, but only
+17% correct on the Newton OOD tasks, since these tasks were not in the training data of the LLM and were
+very difficult.
+
+If the LLM were a coupled system like the human brain, then when it faced the Newton OOD (difficult)
+tasks, it should have become much more uncertain, similar to Max Planck: its token entropy should have
+gone up.
+
+By the way, what is token entropy? It is a measure of uncertainty in LLMs, showing how confident and
+certain an LLM is about its next answer. Entropy measures how unsure the model is about its next token.
+At every step, an LLM does not pick just one next word; it gives a probability to every possible next
+word, and entropy measures how spread out these probabilities are:
+- After "The capital of France is", the model gives "Paris" 99%. It is very sure, so the entropy is
+  almost zero (about 0.06).
+- If the model is torn 50/50 between two words, the entropy is higher (about 0.69).
+- If it is torn between four words equally, it is higher still (about 1.39).
+(The unit is called a "nat". You don't need to remember it; just remember: low = sure, high = unsure.)
+
+The results were interesting: the entropy of the 70-billion model moved by a very small number, from
+about 0.09 to about 0.10, and it was statistically flat across all the models. We can say it did not
+change at all: whether the model knew the answer or not, its certainty stayed the same.
+
+(A fair note: this main test was small, only six questions per difficulty level. But the author repeated
+it with another model, GPT-4o-mini, on 1,000 maths problems per level: accuracy fell from 95% to 62%,
+and entropy again almost did not move.)
+
+On the other hand, we know that the compute per token is fixed by the Transformer architecture, so
+failing costs nothing extra for the model. Accuracy collapses, and the model does not even notice that it
+is failing. That is why the authors named their paper "LLMs Don't Pay for the Jump"!
+
+
+# 20. A question people usually ask me: "But LLMs get feedback, don't they?"
+
+"An LLM can get feedback and fix itself, for example during training with reinforcement learning. So why
+does flat entropy matter?"
+
+Feedback comes from outside: from the dataset's correct answers in training, from human raters in RLHF
+(reinforcement learning from human feedback), or from a user saying "that's wrong". Someone who already
+knows the truth supplies the signal. Entropy measures what the model knows by itself, before any
+feedback, and it shows that the model cannot tell its wrong answers from its right ones.
+
+In real discovery, nobody has the answer key: in 1900, no one could tell Planck the right answer. The
+pressure to change must come from inside, and this is the "coupling" that Paper 2 asks for. (Even in
+training, one step costs the same compute whether the error is big or small; only the size of the update
+changes. But Paper 2's own claim is about inference, with frozen weights.)
+
+In one sentence: feedback means someone tells you that you are wrong; the authors want a model that
+feels by itself that it is wrong.
+
+
+# 21. The fix proposed by Balani and Panda: making the model "pay"
+
+While Zahavy's proposal was "physically grounded" abduction, the authors of the second paper propose
+"cost-coupled" abduction. They hypothesize that a system can create a new axiom only if an internal cost
+grows with its error on a specific result, until the rule is revised.
+
+So when a model makes a prediction and observes an error at inference time, its energy cost goes up ↑,
+and its weights get revised. It is like pain after a wrong move: the bigger the error, the bigger the
+energy bill, until the model updates itself. This could be possible with neuromorphic (brain-like)
+hardware, where prediction errors keep updating the weights during inference, and each update costs
+more energy for a larger error.
+
+(To be fair: this is a proposal. Nobody has built and tested such a system yet. But the authors make
+their idea testable: in a coupled system, the cost signal should follow the accuracy. If it stays flat,
+their idea is wrong.)
+
+
+# 22. Wrap-up
+
+So both papers say the same thing: LLMs can't jump. But they give different reasons and different
+solutions.
+
+For Zahavy, the missing part is sensory grounding; for Balani and Panda, it is a cost of error. Zahavy
+proposes interactive world models; Balani and Panda propose coupled architectures. (Zahavy's evidence is
+historical; Balani and Panda add a cited entropy study.) Both agree: today's LLMs can induce and deduce,
+but they cannot abduce.
+
+Back to our box of knowledge: today's LLMs can fill the empty spaces inside the box, using the rules and
+data we already have. But according to both papers, they cannot think outside of the box and make the box
+bigger. That is the jump.
+
+| | Zahavy (Paper 1) | Balani and Panda (Paper 2) |
+|---|---|---|
+| Main example | Einstein, General Relativity | Planck, energy packets |
+| What is missing | grounding in the physical world | a cost for being wrong |
+| Proposed fix | interactive world models | cost-coupled (brain-like) systems |
+| Evidence | history | history + a cited entropy study |
+
+Maybe the two ideas even fit together. Grounding could tell a model what the world is like, and a cost
+for being wrong could tell it when it is wrong enough to change its mind. A future AI scientist may need
+both.
+
+[Link to the interactive website: ADD LINK]
+
+
+# References
+
+1. Tom Zahavy. "LLMs Can't Jump." Google DeepMind, 2026. https://openreview.net/forum?id=klU4737opt
+2. Paras Balani and Subhrakanta Panda. "LLMs Don't Pay for the Jump." arXiv:2608.14397, 2026.
+   https://arxiv.org/abs/2608.14397
+3. Yong Zheng-Xin. "Hot take: LLM can 'jump'." Blog post, 2026.
+   https://yongzx.github.io/blog/2026/08/08/llm-can-jump
+4. Ahmed Gamal Eldin. "Descriptive versus Regulatory Uncertainty in Bounded Predictive Systems."
+   arXiv:2605.18909, 2026. https://arxiv.org/abs/2605.18909
